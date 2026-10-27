@@ -1,0 +1,9 @@
+Porter Delivery Time Estimation • Neural Network Project
+
+• Built & trained a 3-layer dense neural network (64→32→16→1 architecture) using TensorFlow/Keras on 140,621 delivery records, achieving 78.3% R² score and 3.21 min MAE on test data
+
+• Engineered 10 key features from raw order data (market ID, item counts, price ranges, dasher availability, driving duration) with KNN Imputer (k=5) and StandardScaler for robust preprocessing
+
+• Designed end-to-end ML pipeline: data ingestion → feature engineering → model training (Adam optimizer, MSE loss) → evaluation → Gradio web interface for real-time ETA prediction
+
+• Created deployable web UI enabling customers to experiment with order features and receive instant delivery time estimates; project structure ready for Hugging Face Spaces deployment

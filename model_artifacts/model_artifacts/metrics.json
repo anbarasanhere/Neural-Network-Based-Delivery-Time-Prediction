@@ -1,0 +1,10 @@
+{
+  "test_mae_log": 0.06502494215965271,
+  "test_mse_log": 0.006643031723797321,
+  "test_mae_minutes": 3.214530723468478,
+  "test_rmse_minutes": 4.36036593525765,
+  "test_r2": 0.7827786924965585,
+  "n_features": 10,
+  "n_train_samples": 140621,
+  "n_test_samples": 35156
+}
